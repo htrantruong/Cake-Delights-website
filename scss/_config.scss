@@ -41,6 +41,16 @@ $background-opacity: 0.5;
     }
 }
 
+//If we wanna return sth, we use a function, not a mixin
+//Set Text Color
+@function set-text-color($color) {
+    @if (lightness($color) > 40) {
+        @return #000;
+    } @else {
+       @return #fff; 
+    }
+}
+
 //media Query Mixins
 @mixin mediaSm {
     @media screen and (max-width:500px) {
@@ -55,7 +65,7 @@ $background-opacity: 0.5;
 }
 
 @mixin mediaLg {
-    @media screen and (min-width:769) and (max-width:1170px) {
+    @media screen and (min-width:769px) and (max-width:1170px) {
         @content;
     }
 }
