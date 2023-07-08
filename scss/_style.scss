@@ -1,0 +1,163 @@
+.recipe{
+    color: #282e34;
+}
+.pimg0, .pimg1, .pimg2, .pimg3,
+.tiramisu1, .tiramisu2, .tiramisu3,
+.brownie1, .brownie2, .brownie3,
+.banana1, .banana2, .banana3,
+.cheesecake1, .cheesecake2,.cheesecake3,
+.pie1, .pie2, .pie3 {
+    position: relative;
+    opacity: 0.50;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+//fixed=parallax
+//scroll=normal
+
+.pimg0{
+    background-image: url('../img/pexels0.jpg');
+    min-height: 600px;
+}
+
+.pimg1{
+    background-image: url('../img/pexels1.jpg');
+    min-height: 400px;
+}
+
+.pimg2{
+    background-image: url('../img/pexels2.jpg');
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url('../img/pexels3.jpg');
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border .trans{
+    background-color: transparent;
+}
+
+@media (max-width:568px){
+    .pimg0, .pimg1, .pimg2, .pimg3,
+.tiramisu1, .tiramisu2, .tiramisu3,
+.brownie1, .brownie2, .brownie3,
+.banana1, .banana2, .banana3,
+.cheesecake1, .cheesecake2,.cheesecake3,
+.pie1, .pie2, .pie3 {
+        background-attachment: scroll;
+    }
+}
+
+//Tiramisu Recipe
+.tiramisu1{
+    background-image: url('../img/recipes/tiramisu1.jpg');
+    min-height: 600px;
+}
+
+.tiramisu2{
+    background-image: url('../img/recipes/tiramisu2.jpg');
+    min-height: 400px;
+}
+
+.tiramisu3{
+    background-image: url('../img/recipes/tiramisu3.jpg');
+    min-height: 400px;
+}
+
+//Brownie Recipe
+.brownie1{
+    background-image: url('../img/recipes/brownie1.jpg');
+    min-height: 600px;
+}
+
+.brownie2{
+    background-image: url('../img/recipes/brownie2.jpg');
+    min-height: 400px;
+}
+
+.brownie3{
+    background-image: url('../img/recipes/brownie3.jpg');
+    min-height: 400px;
+}
+
+//Banana Bread Cake Recipe
+.banana1{
+    background-image: url('../img/recipes/banana1.jpg');
+    min-height: 600px;
+}
+
+.banana2{
+    background-image: url('../img/recipes/banana2.jpg');
+    min-height: 400px;
+}
+
+.banana3{
+    background-image: url('../img/recipes/banana3.jpg');
+    min-height: 400px;
+} 
+
+//cheesecake Recipe
+.cheesecake1{
+    background-image: url('../img/recipes/cheesecake1.jpg');
+    min-height: 600px;
+}
+
+.cheesecake2{
+    background-image: url('../img/recipes/cheesecake2.jpg');
+    min-height: 400px;
+}
+
+.cheesecake3{
+    background-image: url('../img/recipes/cheesecake3.jpg');
+    min-height: 400px;
+}
+
+//Pie Recipe
+.pie1{
+    background-image: url('../img/recipes/pie1.jpg');
+    min-height: 600px;
+}
+
+.pie2{
+    background-image: url('../img/recipes/pie2.jpg');
+    min-height: 400px;
+}
+
+.pie3{
+    background-image: url('../img/recipes/pie3.jpg');
+    min-height: 400px;
+}

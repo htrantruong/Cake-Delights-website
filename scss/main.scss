@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import 'style';
 
 
 * {
@@ -125,7 +126,7 @@ main {
   img{
     width: 100%;
     border: 3px #fff solid;&:hover{
-      opacity:0.5;
+      opacity:0.7;
       border-color: $secondary-color;
       @include easeOut;
     }
@@ -157,7 +158,6 @@ main {
     }
   }
 }
-
 
 //Button Styles
 .btn {

@@ -1,12 +1,12 @@
 {
   "name": "modern-portfolio",
   "version": "1.0.0",
-  "description": "Responsive Portfolio Website",
+  "description": "Cake Delights Website",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
-  "author": "Tran Tiffany",
+  "author": "Tran Truong",
   "license": "MIT",
   "dependencies": {
     "node-sass": "^9.0.0"
